@@ -3,7 +3,7 @@ def fizzbuzz(number)
     "Fizzbuzz"
   elsif number % 3
     "Fizz"
-  elsif number % 5 
+  elsif number % 5
     "Buzz"
   else
     nil
