@@ -1,9 +1,9 @@
 def fizzbuzz(number)
-  if number % 5 && number % 3
+  if number % 5 == true && number % 3 == true
     "Fizzbuzz"
-  elsif number % 3
+  elsif number % 3 == true
     "Fizz"
-  elsif number % 5
+  elsif number % 5 == true
     "Buzz"
   else
     nil
