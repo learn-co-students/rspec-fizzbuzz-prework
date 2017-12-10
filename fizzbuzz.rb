@@ -1,4 +1,4 @@
-def fizzbuss(number)
+def fizzbuzz(number)
   if number % 5 == true && number % 3 == true
     "Fizzbuzz"
   elsif number % 3 == true
@@ -6,7 +6,7 @@ def fizzbuss(number)
   elsif number % 5 == true
     "Buzz"
   elsif number == 4
-    nill
+    nil
   else
     number
   end
