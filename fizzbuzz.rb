@@ -1,10 +1,12 @@
-def fizzbuzz(x)
-  #returns "fizz" when passed an integer that is divisible by 3
-  
-  #returns "buzz" when passed an integer that is divisible by 5
-  
-  #returns "fizzbuzz" when passed an integer that is divisible by 3 and 5
-  
-  #returns "nil" when passed an integer that is not divisible by 3 nor 5
-  
+def fizzbuzz(int)
+  if int % 3 == 0
+    return "Fizz"
+  elsif int % 5 == 0
+    return "Buzz"
+  #elsif int % 3 == 0 && int % 5 == 0
+  elsif int % 15 == 0
+    return "FizzBuzz"
+  else
+    return nil
+  end
 end
